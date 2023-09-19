@@ -1,0 +1,38 @@
+/*Font*/
+@import url("https://fonts.googleapis.com/css2?family=Mooli&display=swap");
+
+/*Project*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Mooli", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+h1 {
+  text-align: center;
+}
+
+.btns {
+  display: flex;
+  justify-content: center;
+  outline: none;
+}
+
+.btns button {
+  border-radius: 5px;
+  border: 1px solid black;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.btns #turnOn {
+  margin-right: 15px;
+}
